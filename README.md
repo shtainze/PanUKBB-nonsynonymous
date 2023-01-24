@@ -10,6 +10,8 @@ To make that huge data easier to handle and comprehend, the following filters ar
 
 These filters effectively narrow down the ~209 billion entries to only ~0.4 million.
 
+*Note: please consider carefully about the biological meaning.
+
 ## Directory structure
 - The final product containing the ~0.4 million entries can be found on:
 `non_synonymous_all_info.txt`
@@ -19,3 +21,4 @@ These filters effectively narrow down the ~209 billion entries to only ~0.4 mill
 ## Pipeline
 - The whole pipeline requires `bash` and `Python`.
 - If you'd like to run the whole pipeline automatically, just run `bash process-all.sh`. To run the subprocesses independently, see what's called in that shell script.
+- The code is standalone and does not affect the outside directory structure. All the output will be written in subfolders made automatically.
